@@ -1,0 +1,41 @@
+.top{
+    height: 10vh;
+    box-sizing: border-box;
+}
+
+/* h1{
+    animation: glow 12s ease-in infinite;
+} */
+ @keyframes glow {
+    0%{ 
+        text-shadow: none;
+    } 
+    25%{text-shadow:
+        0 0 0.2rem #fff ,
+    0 0 0.5rem #fff ,
+    0 0 1.1rem #add8e6 ,
+    0 0 1.2rem #8ac7db ,
+    0 0 1.3rem #0ef ,
+    0 0 1.4rem #75e6da ,
+    0 0 1.5rem #67b7d1 ,
+    0 0 1.6rem #43a6c6;
+    }
+    50%{
+        text-shadow: none;
+    }
+    75%{
+        text-shadow:
+        0 0 0.2rem #fff ,
+        0 0 0.5rem #fff ,
+        0 0 1.1rem #add8e6 ,
+        0 0 1.2rem #8ac7db ,
+        0 0 1.3rem #0ef ,
+        0 0 1.4rem #75e6da ,
+        0 0 1.5rem #67b7d1 ,
+        0 0 1.6rem #43a6c6;
+    }
+    100%{
+        text-shadow: none;
+    }
+    
+} 

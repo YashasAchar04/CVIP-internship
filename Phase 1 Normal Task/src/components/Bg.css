@@ -1,0 +1,32 @@
+.bg{
+    height: 90vh;
+    box-sizing: border-box;
+    color: white;
+}
+.glow {
+    animation: glow 8s ease infinite
+}
+
+@keyframes glow {
+0%{
+    filter:drop-shadow(0.5px 0.5px 40px #0ff);
+}    
+25%{
+    filter: none;
+}
+50%{
+    filter: drop-shadow(0.5px 0.5px 40px #0ff);
+}
+75%{
+    filter: none ;
+}
+100%{
+    filter: drop-shadow(0.5px 0.5px 40px #0ff);
+}
+}
+
+@media screen and (max-width:768px) {
+    .bg{
+        height: 100vh;
+    }
+}
